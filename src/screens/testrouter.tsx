@@ -84,7 +84,7 @@ class TestRouter extends React.Component<{history: MemoryHistory}, {routes: Rout
                         <Link to="/" style={styles.navItem}><Text>Blatest</Text></Link>
                         <Link to="/1" style={styles.navItem}><Text>1</Text></Link>
                     </Container>
-                    <Text style={styles.headerText}>Welcome to My ABB</Text>
+                    <Text style={styles.headerText}>Welcome to My APP</Text>
                     <Button style={styles.backButton} onPress={() => this.props.history.goBack()}>
                         <Text>Back</Text>
                     </Button>
